@@ -1,0 +1,196 @@
+{
+	"experience_per_level": {
+		"type": "values",
+		"data": {
+			"values": [
+                250, 300, 350, 400, 450, 500, 550, 600, 650, 700,
+                750, 800, 850, 900, 950, 1000, 1050, 1100, 1150, 1200,
+                1250, 1300, 1350, 1400, 1450, 1500, 1550, 1600, 1650, 1700,
+                1750, 1800, 1850, 1900, 1950, 2000, 2050, 2100, 2150, 2200,
+                2250, 2300, 2350, 2400, 2450, 2500, 2550, 2600, 2650, 2700
+            ]
+		}
+	},
+	"sources": [
+		{
+			"type": "puffish_skills:mine_block",
+			"data": {
+				"variables": {
+					"silk_touch": {
+						"operations": [
+							{
+								"type": "get_tool_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"nbt": "{Enchantments:[{id:\"minecraft:silk_touch\"}]}"
+								}
+							}
+						]
+					},
+					"stone_like": {
+						"operations": [
+							{
+								"type": "get_mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "#base_stone_overworld"
+								}
+							}
+						]
+					},
+					"deepslate": {
+						"operations": [
+							{
+								"type": "get_mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "deepslate"
+								}
+							}
+						]
+					},
+					"netherrack_like": {
+						"operations": [
+							{
+								"type": "get_mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "#base_stone_nether"
+								}
+							}
+						]
+					},
+					"endstone": {
+						"operations": [
+							{
+								"type": "get_mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "end_stone"
+								}
+							}
+						]
+					},
+					"is_ore": {
+						"operations": [
+							{
+								"type": "get_mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "#c:ores"
+								}
+							}
+						]
+					},
+					"pickaxe": {
+						"operations": [
+							{
+								"type": "get_mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "#minecraft:mineable/pickaxe"
+								}
+							}
+						]
+					},
+					"stone_tool": {
+						"operations": [
+							{
+								"type": "get_mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "#minecraft:needs_stone_tool"
+								}
+							}
+						]
+					},
+					"iron_tool": {
+						"operations": [
+							{
+								"type": "get_mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "#minecraft:needs_iron_tool"
+								}
+							}
+						]
+					},
+					"diamond_tool": {
+						"operations": [
+							{
+								"type": "get_mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "#minecraft:needs_diamond_tool"
+								}
+							}
+						]
+					},
+					"netherite_tool": {
+						"operations": [
+							{
+								"type": "get_mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "#neoforge:needs_netherite_tool"
+								}
+							}
+						]
+					}
+				},
+				"experience": [
+					{
+						"condition": "!silk_touch & stone_like",
+						"expression": "1"
+					},
+					{
+						"condition": "!silk_touch & (deepslate | netherrack_like | endstone)",
+						"expression": "2"
+					},
+					{
+						"condition": "!silk_touch & is_ore",
+						"expression": "10"
+					},
+					{
+						"condition": "!silk_touch & stone_tool",
+						"expression": "5"
+					},
+					{
+						"condition": "!silk_touch & iron_tool",
+						"expression": "10"
+					},
+					{
+						"condition": "!silk_touch & diamond_tool",
+						"expression": "20"
+					},
+					{
+						"condition": "!silk_touch & netherite_tool",
+						"expression": "30"
+					}
+				]
+			}
+		}
+	]
+}

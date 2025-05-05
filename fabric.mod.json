@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "tmmpskilltrees",
+  "version": "1.21",
+  "name": "TmmpSkillTrees",
+  "description": "Skill trees for the TMMP pack",
+  "license": "LicenseRef-Datapack",
+  "environment": "*",
+  "depends": {
+    "fabric-resource-loader-v0": "*"
+  }
+}

@@ -1,0 +1,13 @@
+{
+	"title": "mining",
+	"icon": {
+		"type": "item",
+		"data": {
+			"item": "minecraft:diamond_pickaxe",
+			"nbt": {
+				"tag": {}
+			}
+		}
+	},
+	"background": "textures/gui/advancements/backgrounds/stone.png"
+}

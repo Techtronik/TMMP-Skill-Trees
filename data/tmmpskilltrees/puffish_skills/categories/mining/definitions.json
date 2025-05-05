@@ -1,0 +1,530 @@
+{
+	"mining_reset": {
+		"title": "Mining Tree Reset",
+		"description": "Allows you to reset this tree without losing experience",
+		"cost": 0,
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:lever"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "puffish_skills skills reset @p tmmpskilltrees:mining"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "cp1vpezxhlz1898b"
+		}
+	},
+	"health+2": {
+		"title": "+1 Heart",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "health_boost"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "vvcbwswd9h1uox03"
+		}
+	},
+	"healing+5%": {
+		"title": "+5% Healing",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "regeneration"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.healing",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "pb4k7gfq2a8n69ya"
+		}
+	},
+	"regen+0.1": {
+		"title": "+0.1 Natural Regeneration",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "regeneration"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:natural_regeneration",
+					"value": 0.1,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "yksvbs4kxxu45ukd"
+		}
+	},
+	"attack_speed+5%": {
+		"title": "+5% Attack Speed",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:golden_sword"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_speed",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "wo8azhjss3fdy42v"
+		}
+	},
+	"move_speed+5%": {
+		"title": "+5% Movement Speed",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "speed"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "rdvzp81pbmfrn2sf"
+		}
+	},
+	"jump+5%": {
+		"title": "+5% Jump Height",
+		"description": "Increases jump height and reduces fall damage taken",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "jump_boost"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:fall_reduction",
+					"value": 0.1,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "m6pl2p798wvm3ejq"
+		}
+	},
+	"melee_damage+5%": {
+		"title": "+5% Melee Damage",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_sword"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:melee_damage",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "56uh8wduoz75y73z"
+		}
+	},
+	"ranged_damage+5%": {
+		"title": "+5% Ranged Damage",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:bow"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:ranged_damage",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "e1q2h278nqj9a183"
+		}
+	},
+	"projectile_speed+10%": {
+		"title": "+10% Projectile Speed",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:bow"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:crossbow_projectile_speed",
+					"value": 0.1,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "j7c5s3z8chyseu1a"
+		}
+	},
+	"life_steal+1%": {
+		"title": "1% Life Steal",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "instant_health"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:life_steal",
+					"value": 0.01,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "dsgvpj9eivsvi0mh"
+		}
+	},
+	"mining_speed+5%": {
+		"title": "+5% Mining Speed",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:golden_pickaxe"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:mining_speed",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "4nvi72mwtnz2m84j"
+		}
+	},
+	"fortune+0.5": {
+		"title": "+1 Fortune",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:diamond"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:fortune",
+					"value": 0.5,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "y1vr4bb69swad6qk"
+		}
+	},
+	"luck+0.5": {
+		"title": "+1 Luck",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "luck"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.luck",
+					"value": 0.5,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "7cjgk4jatylxxl04"
+		}
+	},
+	"resistance+5%": {
+		"title": "+5% Resistance",
+		"description": "Increases generic resistance as we as knockback resistance",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "resistance"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:resistance",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:generic.knockback_resistance",
+					"value": 0.15,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "xz6xo4i2ypo61mvh"
+		}
+	},
+	"resistance_plus+5%": {
+		"title": "+5%  Special Resistance",
+		"description": "Increases resistance to Melee, Ranged, and Magic damage",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "resistance"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:melee_resistance",
+					"value": 0.1,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:ranged_resistance",
+					"value": 0.1,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:magic_resistance",
+					"value": 0.1,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "meh1mj18ribmt0tw"
+		}
+	},
+	"armor+1": {
+		"title": "+1 Armor",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_chestplate"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:generic.armor_toughness",
+					"value": 0.25,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:generic.armor",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "9lh7bbsb96aibczn"
+		}
+	},
+	"armor_shred+5%": {
+		"title": "+5% Armor Shred",
+		"description": "Shreds a percentage of an enemies armor",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:golden_chestplate"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:armor_shred",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "rh547oeqt4q11f1b"
+		}
+	},
+	"tough_shred+5%": {
+		"title": "+5% Armor Toughness Shred",
+		"description": "Shreds a percentage of an enemies armor toughness",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:diamond_chestplate"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:toughness_shred",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "63ipjyyxck3r335o"
+		}
+	},
+	"critical_strikes+5%": {
+		"title": "+5% Critical Strike Chance",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:pointed_dripstone"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "apothic_attributes:crit_chance",
+					"value": 0.1,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "j6ywv78bppbo5yj8"
+		}
+	},
+	"critical_damage+10%": {
+		"title": "+10% Critical damage",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:diamond_sword"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "apothic_attributes:crit_damage",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "aopilpt5denu68rd"
+		}
+	},
+	"stamina+5%": {
+		"title": "+5% Stamina",
+		"description": "Increases how much exhaustion you need to go through before losing food/saturation",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "saturation"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.stamina",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "g67h1pbtm8qgo1oq"
+		}
+	}
+}

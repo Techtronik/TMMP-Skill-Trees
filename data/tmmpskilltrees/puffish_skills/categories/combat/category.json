@@ -1,0 +1,20 @@
+{
+	"title": "combat",
+	"icon": {
+		"type": "item",
+		"data": {
+			"item": "diamond_sword",
+			"nbt": {
+				"tag": {
+					"Enchantments": [
+						{
+							"id": "sharpness",
+							"lvl": 1
+						}
+					]
+				}
+			}
+		}
+	},
+	"background": "textures/gui/advancements/backgrounds/adventure.png"
+}
