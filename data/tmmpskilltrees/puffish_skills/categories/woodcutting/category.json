@@ -1,0 +1,13 @@
+{
+	"title": "Woodcutting",
+	"icon": {
+		"type": "item",
+		"data": {
+			"item": "minecraft:diamond_axe",
+			"nbt": {
+				"tag": {}
+			}
+		}
+	},
+	"background": "textures/block/oak_log.png"
+}

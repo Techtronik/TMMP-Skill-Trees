@@ -1,4 +1,60 @@
 {
+	"combat_reset": {
+		"title": "Combat Tree Reset",
+		"description": "Allows you to reset this tree without losing experience",
+		"cost": 0,
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:lever"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "puffish_skills skills reset @p tmmpskilltrees:combat"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "cp1vpezxhlz1898b"
+		}
+	},
+	"defence_reset": {
+		"title": "Defence Tree Reset",
+		"description": "Allows you to reset this tree without losing experience",
+		"cost": 0,
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:lever"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "puffish_skills skills reset @p tmmpskilltrees:defence"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "cp1vpezxhlz1898b"
+		}
+	},
 	"mining_reset": {
 		"title": "Mining Tree Reset",
 		"description": "Allows you to reset this tree without losing experience",
@@ -20,6 +76,90 @@
 				"type": "puffish_skills:command",
 				"data": {
 					"command": "puffish_skills skills reset @p tmmpskilltrees:mining"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "cp1vpezxhlz1898b"
+		}
+	},
+	"boss_reset": {
+		"title": "Mining Tree Reset",
+		"description": "Allows you to reset this tree without losing experience",
+		"cost": 0,
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:lever"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "puffish_skills skills reset @p tmmpskilltrees:boss"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "cp1vpezxhlz1898b"
+		}
+	},
+	"chopping_reset": {
+		"title": "Woodcutting Tree Reset",
+		"description": "Allows you to reset this tree without losing experience",
+		"cost": 0,
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:lever"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "puffish_skills skills reset @p tmmpskilltrees:woodcutting"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "cp1vpezxhlz1898b"
+		}
+	},
+	"digging_reset": {
+		"title": "Digging Tree Reset",
+		"description": "Allows you to reset this tree without losing experience",
+		"cost": 0,
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:lever"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "puffish_skills skills reset @p tmmpskilltrees:digging"
 				}
 			}
 		],
@@ -90,29 +230,7 @@
 			}
 		],
 		"metadata": {
-			"icon": "yksvbs4kxxu45ukd"
-		}
-	},
-	"attack_speed+5%": {
-		"title": "+5% Attack Speed",
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "minecraft:golden_sword"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "generic.attack_speed",
-					"value": 0.05,
-					"operation": "multiply_total"
-				}
-			}
-		],
-		"metadata": {
-			"icon": "wo8azhjss3fdy42v"
+			"icon": "xutmw4vqmlq7i6oj"
 		}
 	},
 	"move_speed+5%": {
@@ -128,6 +246,14 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "generic.movement_speed",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:sprinting_speed",
 					"value": 0.05,
 					"operation": "multiply_total"
 				}
@@ -182,6 +308,50 @@
 			"icon": "56uh8wduoz75y73z"
 		}
 	},
+	"boss_melee_dmg+20%": {
+		"title": "+20% Melee Damage",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_sword"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:melee_damage",
+					"value": 0.2,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "6zr74pe8irg07083"
+		}
+	},
+	"attack_speed+5%": {
+		"title": "+5% Attack Speed",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:golden_sword"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_speed",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "wo8azhjss3fdy42v"
+		}
+	},
 	"ranged_damage+5%": {
 		"title": "+5% Ranged Damage",
 		"icon": {
@@ -204,6 +374,28 @@
 			"icon": "e1q2h278nqj9a183"
 		}
 	},
+	"boss_ranged_dmg+20%": {
+		"title": "+20% Ranged Damage",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:bow"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:ranged_damage",
+					"value": 0.2,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "42fqvojs4rk0ejdv"
+		}
+	},
 	"projectile_speed+10%": {
 		"title": "+10% Projectile Speed",
 		"icon": {
@@ -216,6 +408,14 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
+					"attribute": "puffish_attributes:bow_projectile_speed",
+					"value": 0.1,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
 					"attribute": "puffish_attributes:crossbow_projectile_speed",
 					"value": 0.1,
 					"operation": "multiply_total"
@@ -224,6 +424,162 @@
 		],
 		"metadata": {
 			"icon": "j7c5s3z8chyseu1a"
+		}
+	},
+	"projectile_damage+10%": {
+		"title": "+10% Projectile Speed",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:bow"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "apothic_attributes:arrow_damage",
+					"value": 0.1,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "t8iw2oigm8q6zxpm"
+		}
+	},
+	"armor_shred+5%": {
+		"title": "+5% Armor Shred",
+		"description": "Shreds a percentage of an enemies armor",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:golden_chestplate"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:armor_shred",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "rh547oeqt4q11f1b"
+		}
+	},
+	"tough_shred+5%": {
+		"title": "+5% Armor Toughness Shred",
+		"description": "Shreds a percentage of an enemies armor toughness",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:diamond_chestplate"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:toughness_shred",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "63ipjyyxck3r335o"
+		}
+	},
+	"critical_strikes+5%": {
+		"title": "+5% Critical Strike Chance",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:pointed_dripstone"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "apothic_attributes:crit_chance",
+					"value": 0.05,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "j6ywv78bppbo5yj8"
+		}
+	},
+	"boss_crit_strikes+20%": {
+		"title": "+10% Critical Strike Chance",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:pointed_dripstone"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "apothic_attributes:crit_chance",
+					"value": 0.1,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "2b5gitlybuw4b7yn"
+		}
+	},
+	"critical_damage+10%": {
+		"title": "+10% Critical damage",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:diamond_sword"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "apothic_attributes:crit_damage",
+					"value": 0.1,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "aopilpt5denu68rd"
+		}
+	},
+	"boss_crit_dmg+40%": {
+		"title": "+40% Critical damage",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:diamond_sword"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "apothic_attributes:crit_damage",
+					"value": 0.4,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "g3urt2tc7q0ujj5i"
 		}
 	},
 	"life_steal+1%": {
@@ -248,8 +604,98 @@
 			"icon": "dsgvpj9eivsvi0mh"
 		}
 	},
+	"boss_life_steal+5%": {
+		"title": "+5% Life Steal",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "instant_health"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:life_steal",
+					"value": 0.05,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "mxxet4xn8jjk0etn"
+		}
+	},
+	"current_hp_dmg+1%": {
+		"title": "1% Life Steal",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "instant_health"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "apothic_attributes:current_hp_damage",
+					"value": 0.01,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "rw2mhu8ka7rfuywq"
+		}
+	},
+	"dodge_chance+2%": {
+		"title": "1% Life Steal",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "instant_health"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "apothic_attributes:dodge_chance",
+					"value": 0.02,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "iximdeni6ure0mfk"
+		}
+	},
+	"breaking_speed+10%": {
+		"title": "+10% Breaking Speed",
+		"description": "Increases mining speed with all tools",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "haste"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:mining_speed",
+					"value": 0.1,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "5p18q9ntbd9n0a27"
+		}
+	},
 	"mining_speed+5%": {
 		"title": "+5% Mining Speed",
+		"description": "Increases mining speed with pickaxes",
 		"icon": {
 			"type": "item",
 			"data": {
@@ -260,7 +706,7 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "puffish_attributes:mining_speed",
+					"attribute": "puffish_attributes:pickaxe_speed",
 					"value": 0.05,
 					"operation": "multiply_total"
 				}
@@ -268,6 +714,52 @@
 		],
 		"metadata": {
 			"icon": "4nvi72mwtnz2m84j"
+		}
+	},
+	"chopping_speed+5%": {
+		"title": "+5% Chopping Speed",
+		"description": "Increases mining speed with axes",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:golden_axe"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:axe_speed",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "037ay5dnd714ap76"
+		}
+	},
+	"digging_speed+5%": {
+		"title": "+5% Digging Speed",
+		"description": "Increases mining speed with shovels",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:golden_shovel"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:shovel_speed",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "xcmnhdq8wlbpb90s"
 		}
 	},
 	"fortune+0.5": {
@@ -412,96 +904,6 @@
 		],
 		"metadata": {
 			"icon": "9lh7bbsb96aibczn"
-		}
-	},
-	"armor_shred+5%": {
-		"title": "+5% Armor Shred",
-		"description": "Shreds a percentage of an enemies armor",
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "minecraft:golden_chestplate"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "puffish_attributes:armor_shred",
-					"value": 0.05,
-					"operation": "multiply_total"
-				}
-			}
-		],
-		"metadata": {
-			"icon": "rh547oeqt4q11f1b"
-		}
-	},
-	"tough_shred+5%": {
-		"title": "+5% Armor Toughness Shred",
-		"description": "Shreds a percentage of an enemies armor toughness",
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "minecraft:diamond_chestplate"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "puffish_attributes:toughness_shred",
-					"value": 0.05,
-					"operation": "multiply_total"
-				}
-			}
-		],
-		"metadata": {
-			"icon": "63ipjyyxck3r335o"
-		}
-	},
-	"critical_strikes+5%": {
-		"title": "+5% Critical Strike Chance",
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "minecraft:pointed_dripstone"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "apothic_attributes:crit_chance",
-					"value": 0.1,
-					"operation": "addition"
-				}
-			}
-		],
-		"metadata": {
-			"icon": "j6ywv78bppbo5yj8"
-		}
-	},
-	"critical_damage+10%": {
-		"title": "+10% Critical damage",
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "minecraft:diamond_sword"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "apothic_attributes:crit_damage",
-					"value": 0.05,
-					"operation": "multiply_total"
-				}
-			}
-		],
-		"metadata": {
-			"icon": "aopilpt5denu68rd"
 		}
 	},
 	"stamina+5%": {

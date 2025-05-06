@@ -294,7 +294,7 @@
 		"root": false
 	},
 	"g9plkdrt71unrbpd": {
-		"definition": "projectile_speed+10%",
+		"definition": "projectile_damage+10%",
 		"x": 256,
 		"y": -369.5041722813605,
 		"root": false
@@ -336,7 +336,7 @@
 		"root": false
 	},
 	"2c8tnflj61kdxpua": {
-		"definition": "projectile_speed+10%",
+		"definition": "projectile_damage+10%",
 		"x": 256,
 		"y": 369.5041722813604,
 		"root": false
@@ -1098,25 +1098,25 @@
 		"root": false
 	},
 	"203m1wlokyozudzk": {
-		"definition": "projectile_speed+10%",
+		"definition": "projectile_damage+10%",
 		"x": 320,
 		"y": -480.35542396576864,
 		"root": false
 	},
 	"gflnl0zy7tqhqqhf": {
-		"definition": "projectile_speed+10%",
+		"definition": "projectile_damage+10%",
 		"x": 384,
 		"y": -406.4545895094965,
 		"root": false
 	},
 	"vyvbisw6gay3yf7f": {
-		"definition": "projectile_speed+10%",
+		"definition": "projectile_damage+10%",
 		"x": 320,
 		"y": 480.35542396576864,
 		"root": false
 	},
 	"xso038fu6ojgad8m": {
-		"definition": "projectile_speed+10%",
+		"definition": "projectile_damage+10%",
 		"x": 384,
 		"y": 406.4545895094965,
 		"root": false
@@ -1188,13 +1188,13 @@
 		"root": false
 	},
 	"bi193h0xezt6xu69": {
-		"definition": "projectile_speed+10%",
+		"definition": "projectile_damage+10%",
 		"x": 384,
 		"y": 147.8016689125442,
 		"root": false
 	},
 	"82t7yji6lj5im3ey": {
-		"definition": "projectile_speed+10%",
+		"definition": "projectile_damage+10%",
 		"x": 320,
 		"y": 147.8016689125442,
 		"root": false
@@ -1224,13 +1224,13 @@
 		"root": false
 	},
 	"lp5o2ed7byetmh4f": {
-		"definition": "projectile_speed+10%",
+		"definition": "projectile_damage+10%",
 		"x": 320,
 		"y": -147.80166891254422,
 		"root": false
 	},
 	"wa86yiw09a6xp49v": {
-		"definition": "projectile_speed+10%",
+		"definition": "projectile_damage+10%",
 		"x": 384,
 		"y": -147.8016689125442,
 		"root": false

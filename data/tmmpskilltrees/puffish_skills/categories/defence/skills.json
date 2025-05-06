@@ -1,0 +1,422 @@
+{
+	"xjssbelasuk38k2a": {
+		"definition": "defence_reset",
+		"x": 0,
+		"y": 0,
+		"root": false
+	},
+	"jpyg7ardarwrafpa": {
+		"definition": "resistance+5%",
+		"x": -64,
+		"y": -36.95041722813605,
+		"root": true
+	},
+	"155aq7d8cqaa72n1": {
+		"definition": "armor+1",
+		"x": -128,
+		"y": -73.9008344562721,
+		"root": false
+	},
+	"iy8bkmuq9rtktorz": {
+		"definition": "resistance+5%",
+		"x": -192,
+		"y": -110.85125168440814,
+		"root": false
+	},
+	"zhc7jykml4c5k0r6": {
+		"definition": "armor+1",
+		"x": -256,
+		"y": -147.8016689125442,
+		"root": false
+	},
+	"5xsbruz64g6blemn": {
+		"definition": "resistance+5%",
+		"x": -256,
+		"y": -73.9008344562721,
+		"root": false
+	},
+	"lbnd4epsg1bf8zlz": {
+		"definition": "armor+1",
+		"x": -256,
+		"y": 0,
+		"root": false
+	},
+	"2qe08mddg4wb4iev": {
+		"definition": "resistance_plus+5%",
+		"x": -256,
+		"y": 73.9008344562721,
+		"root": false
+	},
+	"igeg0mlafhtlvf4x": {
+		"definition": "armor+1",
+		"x": -224,
+		"y": 166.27687752661222,
+		"root": false
+	},
+	"8wyr5bpf6e4e36ni": {
+		"definition": "resistance+5%",
+		"x": -192,
+		"y": 221.7025033688163,
+		"root": false
+	},
+	"ybmidqvbgtgtp64y": {
+		"definition": "armor+1",
+		"x": -128,
+		"y": 258.65292059695236,
+		"root": false
+	},
+	"z1dooyzvfqhxqwmt": {
+		"definition": "resistance_plus+5%",
+		"x": -64,
+		"y": 295.6033378250884,
+		"root": false
+	},
+	"22sbip87nzk35dnl": {
+		"definition": "armor+1",
+		"x": 0,
+		"y": 295.6033378250884,
+		"root": false
+	},
+	"phznx31m0nzhpy1b": {
+		"definition": "resistance_plus+5%",
+		"x": 64,
+		"y": 295.6033378250884,
+		"root": false
+	},
+	"o03evh7mdkly4vba": {
+		"definition": "armor+1",
+		"x": 128,
+		"y": 258.6529205969523,
+		"root": false
+	},
+	"7a58eqysach4c9fc": {
+		"definition": "resistance+5%",
+		"x": 192,
+		"y": 221.70250336881628,
+		"root": false
+	},
+	"owy8xlwj2jz04t87": {
+		"definition": "armor+1",
+		"x": 224,
+		"y": 166.2768775266122,
+		"root": false
+	},
+	"1ca9zd1fo585rlsk": {
+		"definition": "resistance+5%",
+		"x": 64,
+		"y": -36.95041722813605,
+		"root": true
+	},
+	"vsh2fhebldklc8gy": {
+		"definition": "armor+1",
+		"x": 128,
+		"y": -73.9008344562721,
+		"root": false
+	},
+	"34wjbxi5ykwtcf3t": {
+		"definition": "resistance+5%",
+		"x": 192,
+		"y": -110.85125168440814,
+		"root": false
+	},
+	"vsebnzg5xf2ua4hp": {
+		"definition": "armor+1",
+		"x": 256,
+		"y": -147.8016689125442,
+		"root": false
+	},
+	"rcigwwjdsn4idjy3": {
+		"definition": "resistance+5%",
+		"x": 256,
+		"y": -73.9008344562721,
+		"root": false
+	},
+	"i8l0mbj1bfrtpul3": {
+		"definition": "armor+1",
+		"x": 256,
+		"y": 0,
+		"root": false
+	},
+	"90jsk8ik5ppka4vm": {
+		"definition": "resistance_plus+5%",
+		"x": 256,
+		"y": 73.9008344562721,
+		"root": false
+	},
+	"nhzv4ziic82s7wk0": {
+		"definition": "resistance+5%",
+		"x": 0,
+		"y": 73.9008344562721,
+		"root": true
+	},
+	"lz5m3ss3afbno41o": {
+		"definition": "armor+1",
+		"x": 0,
+		"y": 147.8016689125442,
+		"root": false
+	},
+	"79qe833vlcwsviv0": {
+		"definition": "resistance+5%",
+		"x": 0,
+		"y": 221.70250336881628,
+		"root": false
+	},
+	"v6opzsqplgddvw3p": {
+		"definition": "jump+5%",
+		"x": -64,
+		"y": 36.95041722813605,
+		"root": false
+	},
+	"0i6ix8211748yd7i": {
+		"definition": "health+2",
+		"x": -128,
+		"y": 73.9008344562721,
+		"root": false
+	},
+	"bhz4aklvwvy4iqit": {
+		"definition": "move_speed+5%",
+		"x": -128,
+		"y": 0,
+		"root": false
+	},
+	"edm6s6lfopnt37ww": {
+		"definition": "move_speed+5%",
+		"x": -192,
+		"y": 36.95041722813605,
+		"root": false
+	},
+	"zk44nz75dj3z6fj7": {
+		"definition": "move_speed+5%",
+		"x": -128,
+		"y": 147.8016689125442,
+		"root": false
+	},
+	"5qts2jwfqxnp5rrs": {
+		"definition": "jump+5%",
+		"x": -192,
+		"y": 110.85125168440814,
+		"root": false
+	},
+	"ts91wg8ew5mk9gfp": {
+		"definition": "move_speed+5%",
+		"x": -64,
+		"y": 110.85125168440814,
+		"root": false
+	},
+	"2mh1389t5i643nir": {
+		"definition": "stamina+5%",
+		"x": 64,
+		"y": 36.95041722813605,
+		"root": false
+	},
+	"jtgqebu570apv9ce": {
+		"definition": "move_speed+5%",
+		"x": 64,
+		"y": 110.85125168440814,
+		"root": false
+	},
+	"3n31apruvqg3hcpb": {
+		"definition": "move_speed+5%",
+		"x": 128,
+		"y": 147.8016689125442,
+		"root": false
+	},
+	"rsy6gu8di3s9js7v": {
+		"definition": "stamina+5%",
+		"x": 192,
+		"y": 110.85125168440814,
+		"root": false
+	},
+	"p5baufhn149aza2d": {
+		"definition": "move_speed+5%",
+		"x": 192,
+		"y": 36.95041722813605,
+		"root": false
+	},
+	"1qd6je429d40dgow": {
+		"definition": "move_speed+5%",
+		"x": 128,
+		"y": 0,
+		"root": false
+	},
+	"3h7wues2v04zpuyo": {
+		"definition": "health+2",
+		"x": 128,
+		"y": 73.9008344562721,
+		"root": false
+	},
+	"4nep2lkvozw8ce9z": {
+		"definition": "resistance+5%",
+		"x": 0,
+		"y": -73.9008344562721,
+		"root": false
+	},
+	"5b9k10gpqirjabjh": {
+		"definition": "resistance_plus+5%",
+		"x": -64,
+		"y": -110.85125168440814,
+		"root": false
+	},
+	"b60tzhgzsjggikdb": {
+		"definition": "resistance_plus+5%",
+		"x": 64,
+		"y": -110.85125168440814,
+		"root": false
+	},
+	"s2qx0d02ruuj4cbz": {
+		"definition": "resistance_plus+5%",
+		"x": 224,
+		"y": -240.17771198288432,
+		"root": false
+	},
+	"o3tp5zlix4d1m1i2": {
+		"definition": "armor+1",
+		"x": 192,
+		"y": -295.6033378250884,
+		"root": false
+	},
+	"czs79e6a34ilu56l": {
+		"definition": "resistance+5%",
+		"x": 128,
+		"y": -332.5537550532244,
+		"root": false
+	},
+	"9mwdspxdbg40urrn": {
+		"definition": "armor+1",
+		"x": 64,
+		"y": -369.5041722813604,
+		"root": false
+	},
+	"0ktp3ars9ax6zptm": {
+		"definition": "resistance_plus+5%",
+		"x": 0,
+		"y": -369.50417228136047,
+		"root": false
+	},
+	"2x4jxw755z757htd": {
+		"definition": "armor+1",
+		"x": -64,
+		"y": -369.5041722813605,
+		"root": false
+	},
+	"eklei7g7lv7akz7s": {
+		"definition": "resistance+5%",
+		"x": -128,
+		"y": -332.5537550532244,
+		"root": false
+	},
+	"fzwhatockmtuuw0e": {
+		"definition": "resistance_plus+5%",
+		"x": -224,
+		"y": -240.1777119828843,
+		"root": false
+	},
+	"lz9h1k8gb2xtl5gt": {
+		"definition": "armor+1",
+		"x": -192,
+		"y": -295.6033378250884,
+		"root": false
+	},
+	"8s13hf12s87qsche": {
+		"definition": "healing+5%",
+		"x": -128,
+		"y": -147.8016689125442,
+		"root": false
+	},
+	"hwtfiy1gk4t9likp": {
+		"definition": "healing+5%",
+		"x": -128,
+		"y": -221.70250336881628,
+		"root": false
+	},
+	"um2p0pfb0c2oqysg": {
+		"definition": "resistance_plus+5%",
+		"x": -64,
+		"y": -258.6529205969523,
+		"root": false
+	},
+	"n4ppcu8qasupitag": {
+		"definition": "resistance+5%",
+		"x": 0,
+		"y": -295.6033378250884,
+		"root": false
+	},
+	"bongfqlgpijy3ugv": {
+		"definition": "resistance_plus+5%",
+		"x": 64,
+		"y": -258.6529205969523,
+		"root": false
+	},
+	"w09uilg8r5iss91d": {
+		"definition": "healing+5%",
+		"x": 128,
+		"y": -221.70250336881628,
+		"root": false
+	},
+	"prwim93fyuu103t2": {
+		"definition": "healing+5%",
+		"x": 128,
+		"y": -147.8016689125442,
+		"root": false
+	},
+	"t1ergtppzbova22x": {
+		"definition": "health+2",
+		"x": 0,
+		"y": -147.8016689125442,
+		"root": false
+	},
+	"v5vtyvb44sayqtke": {
+		"definition": "health+2",
+		"x": 0,
+		"y": -221.70250336881628,
+		"root": false
+	},
+	"2uizucfs5qpb9h66": {
+		"definition": "healing+5%",
+		"x": 64,
+		"y": -184.75208614068023,
+		"root": false
+	},
+	"vxsouo5j44pfqjvp": {
+		"definition": "healing+5%",
+		"x": -64,
+		"y": -184.75208614068023,
+		"root": false
+	},
+	"4ufhkzoq28idw27u": {
+		"definition": "stamina+5%",
+		"x": 64,
+		"y": 184.75208614068023,
+		"root": false
+	},
+	"g4op3b3iem5wrvei": {
+		"definition": "jump+5%",
+		"x": -64,
+		"y": 184.75208614068023,
+		"root": false
+	},
+	"a0045es23qv7sfiy": {
+		"definition": "stamina+5%",
+		"x": 192,
+		"y": -36.95041722813605,
+		"root": false
+	},
+	"ikbx80e4447g0tjs": {
+		"definition": "jump+5%",
+		"x": -192,
+		"y": -36.95041722813605,
+		"root": false
+	},
+	"rcuz474ji5m36ffs": {
+		"definition": "health+2",
+		"x": -192,
+		"y": -184.75208614068023,
+		"root": false
+	},
+	"62v8oe54503ccqvm": {
+		"definition": "health+2",
+		"x": 192,
+		"y": -184.75208614068023,
+		"root": false
+	}
+}

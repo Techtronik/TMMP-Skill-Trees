@@ -1,0 +1,458 @@
+{
+	"rzjdgm47ru90hxvf": {
+		"definition": "boss_reset",
+		"x": 0,
+		"y": 0,
+		"root": false
+	},
+	"ksgplyy2j7yajef1": {
+		"definition": "boss_melee_dmg+20%",
+		"x": -73.9008344562721,
+		"y": 0,
+		"root": false
+	},
+	"qogk08th0prwt45k": {
+		"definition": "boss_melee_dmg+20%",
+		"x": -147.8016689125442,
+		"y": 0,
+		"root": false
+	},
+	"6zuo11135t2mb7we": {
+		"definition": "boss_melee_dmg+20%",
+		"x": -221.70250336881628,
+		"y": 0,
+		"root": false
+	},
+	"q4963oaprpggwa5z": {
+		"definition": "boss_ranged_dmg+20%",
+		"x": 36.95041722813605,
+		"y": 64,
+		"root": false
+	},
+	"3bc7vltz1si8emhf": {
+		"definition": "boss_ranged_dmg+20%",
+		"x": 73.9008344562721,
+		"y": 128,
+		"root": false
+	},
+	"divvowzpr0rdr855": {
+		"definition": "boss_ranged_dmg+20%",
+		"x": 110.85125168440814,
+		"y": 192,
+		"root": false
+	},
+	"fc3fnqfrgds5vtpu": {
+		"definition": "boss_ranged_dmg+20%",
+		"x": 147.8016689125442,
+		"y": 256,
+		"root": false
+	},
+	"w71u8x3aohzowzu2": {
+		"definition": "boss_ranged_dmg+20%",
+		"x": 184.75208614068023,
+		"y": 320,
+		"root": false
+	},
+	"mww1gfyqsrjdn81v": {
+		"definition": "boss_melee_dmg+20%",
+		"x": -295.6033378250884,
+		"y": 0,
+		"root": false
+	},
+	"w2s8lbsbex7bru3w": {
+		"definition": "boss_melee_dmg+20%",
+		"x": -369.50417228136047,
+		"y": 0,
+		"root": false
+	},
+	"wcunvr656nt7keuq": {
+		"definition": "boss_life_steal+5%",
+		"x": -110.85125168440814,
+		"y": -64,
+		"root": false
+	},
+	"hlia8cgku1hcncvy": {
+		"definition": "boss_life_steal+5%",
+		"x": -258.6529205969523,
+		"y": -64,
+		"root": false
+	},
+	"zyvyxafotikgbwju": {
+		"definition": "boss_life_steal+5%",
+		"x": -406.4545895094965,
+		"y": -64,
+		"root": false
+	},
+	"xxi3j73z9n40uak0": {
+		"definition": "boss_life_steal+5%",
+		"x": -258.6529205969523,
+		"y": 64,
+		"root": false
+	},
+	"ohg9f51d0hrx8nu9": {
+		"definition": "boss_life_steal+5%",
+		"x": -406.4545895094965,
+		"y": 64,
+		"root": false
+	},
+	"3dx99kjxoglne7xt": {
+		"definition": "boss_life_steal+5%",
+		"x": -110.85125168440814,
+		"y": 64,
+		"root": false
+	},
+	"0qsxil7izvvnweqx": {
+		"definition": "boss_crit_dmg+40%",
+		"x": 0,
+		"y": 128,
+		"root": false
+	},
+	"ltvr30txb14fi7sj": {
+		"definition": "boss_crit_dmg+40%",
+		"x": 73.9008344562721,
+		"y": 256,
+		"root": false
+	},
+	"sjv0fwms3ru6mkn2": {
+		"definition": "boss_crit_dmg+40%",
+		"x": 147.8016689125442,
+		"y": 384,
+		"root": false
+	},
+	"hmen8pt0njawtblo": {
+		"definition": "boss_crit_dmg+40%",
+		"x": 258.6529205969523,
+		"y": 320,
+		"root": false
+	},
+	"du67plahu7y8piv3": {
+		"definition": "boss_crit_dmg+40%",
+		"x": 184.75208614068023,
+		"y": 192,
+		"root": false
+	},
+	"aye30on6clyxg19m": {
+		"definition": "boss_crit_dmg+40%",
+		"x": 110.85125168440814,
+		"y": 64,
+		"root": false
+	},
+	"2fxjv1yygnteduu0": {
+		"definition": "boss_crit_strikes+20%",
+		"x": 36.95041722813605,
+		"y": 192,
+		"root": false
+	},
+	"2wcc1uk0dskmong0": {
+		"definition": "boss_crit_strikes+20%",
+		"x": 147.8016689125442,
+		"y": 128,
+		"root": false
+	},
+	"8c2539pvkjtlyval": {
+		"definition": "boss_crit_strikes+20%",
+		"x": 110.85125168440814,
+		"y": 320,
+		"root": false
+	},
+	"qmvlycyk5aq0swmv": {
+		"definition": "boss_crit_strikes+20%",
+		"x": 221.70250336881628,
+		"y": 256,
+		"root": false
+	},
+	"0lmg4862ytgjkyb6": {
+		"definition": "current_hp_dmg+1%",
+		"x": -184.75208614068023,
+		"y": 64,
+		"root": false
+	},
+	"lqn1899sbxr0d9hv": {
+		"definition": "current_hp_dmg+1%",
+		"x": -184.75208614068023,
+		"y": -64,
+		"root": false
+	},
+	"8r98gxjnbr0mvicb": {
+		"definition": "current_hp_dmg+1%",
+		"x": -332.55375505322445,
+		"y": -64,
+		"root": false
+	},
+	"y3zo7y2z58jmic9x": {
+		"definition": "current_hp_dmg+1%",
+		"x": -332.55375505322445,
+		"y": 64,
+		"root": false
+	},
+	"gc5w5hdjj9fnao83": {
+		"definition": "health+2",
+		"x": 36.95041722813605,
+		"y": -64,
+		"root": false
+	},
+	"l7ppnixv0fyj5o7o": {
+		"definition": "health+2",
+		"x": 73.9008344562721,
+		"y": -128,
+		"root": false
+	},
+	"u2bd8xkdwa03301y": {
+		"definition": "health+2",
+		"x": 110.85125168440814,
+		"y": -192,
+		"root": false
+	},
+	"01z14l9eziocf2tp": {
+		"definition": "health+2",
+		"x": 147.8016689125442,
+		"y": -256,
+		"root": false
+	},
+	"blpr2mwh771g7vav": {
+		"definition": "health+2",
+		"x": 184.75208614068023,
+		"y": -320,
+		"root": false
+	},
+	"pakilvppicumcsr0": {
+		"definition": "dodge_chance+2%",
+		"x": 0,
+		"y": -128,
+		"root": false
+	},
+	"jiwyptd640tuqgju": {
+		"definition": "dodge_chance+2%",
+		"x": 110.85125168440814,
+		"y": -64,
+		"root": false
+	},
+	"nfce8k0rswk24019": {
+		"definition": "dodge_chance+2%",
+		"x": 184.75208614068023,
+		"y": -192,
+		"root": false
+	},
+	"q9r5ir1e7e5cfjcr": {
+		"definition": "dodge_chance+2%",
+		"x": 73.9008344562721,
+		"y": -256,
+		"root": false
+	},
+	"isqn6r0p1vat9txq": {
+		"definition": "dodge_chance+2%",
+		"x": 147.8016689125442,
+		"y": -384,
+		"root": false
+	},
+	"xekbzr5df1tdkzsm": {
+		"definition": "dodge_chance+2%",
+		"x": 258.6529205969523,
+		"y": -320,
+		"root": false
+	},
+	"4jdh1a5hayjywjhu": {
+		"definition": "healing+5%",
+		"x": 36.95041722813605,
+		"y": -192,
+		"root": false
+	},
+	"xucjuhvsp76b14k8": {
+		"definition": "healing+5%",
+		"x": 147.8016689125442,
+		"y": -128,
+		"root": false
+	},
+	"8rayqvymmbwghk14": {
+		"definition": "healing+5%",
+		"x": 221.70250336881628,
+		"y": -256,
+		"root": false
+	},
+	"hj5z63ug1dgeh3d6": {
+		"definition": "healing+5%",
+		"x": 110.85125168440814,
+		"y": -320,
+		"root": false
+	},
+	"fpsw006l2il0jv4u": {
+		"definition": "dodge_chance+2%",
+		"x": 332.55375505322434,
+		"y": -320,
+		"root": false
+	},
+	"937mnqnc6pxwek3w": {
+		"definition": "dodge_chance+2%",
+		"x": 258.6529205969523,
+		"y": -192,
+		"root": false
+	},
+	"gdmcrrzm19ftlmmm": {
+		"definition": "dodge_chance+2%",
+		"x": 184.75208614068023,
+		"y": -64,
+		"root": false
+	},
+	"rxfz7vfocm26j9c5": {
+		"definition": "dodge_chance+2%",
+		"x": -36.95041722813605,
+		"y": -192,
+		"root": false
+	},
+	"11cdvtoaudjv3gbm": {
+		"definition": "dodge_chance+2%",
+		"x": 36.95041722813605,
+		"y": -320,
+		"root": false
+	},
+	"8dwy52ja0xxa9sja": {
+		"definition": "dodge_chance+2%",
+		"x": 110.85125168440817,
+		"y": -448,
+		"root": false
+	},
+	"zc2483mwwzbt0f0a": {
+		"definition": "healing+5%",
+		"x": 0,
+		"y": -256,
+		"root": false
+	},
+	"9vjzi732cx76j3ik": {
+		"definition": "healing+5%",
+		"x": 73.9008344562721,
+		"y": -384,
+		"root": false
+	},
+	"lxqoxtib9853znie": {
+		"definition": "healing+5%",
+		"x": 295.6033378250884,
+		"y": -256,
+		"root": false
+	},
+	"0hqchw26eh89h7vr": {
+		"definition": "healing+5%",
+		"x": 221.70250336881628,
+		"y": -128,
+		"root": false
+	},
+	"irl4e7l6zsr9wzku": {
+		"definition": "boss_life_steal+5%",
+		"x": -147.8016689125442,
+		"y": -128,
+		"root": false
+	},
+	"4gyhrgvbajrxok3p": {
+		"definition": "current_hp_dmg+1%",
+		"x": -221.70250336881628,
+		"y": -128,
+		"root": false
+	},
+	"9994ezzwgqnkoe2l": {
+		"definition": "boss_life_steal+5%",
+		"x": -295.6033378250884,
+		"y": -128,
+		"root": false
+	},
+	"fuzmkex1z8i77cxp": {
+		"definition": "current_hp_dmg+1%",
+		"x": -369.50417228136047,
+		"y": -128,
+		"root": false
+	},
+	"8b84yny1wpihdwdp": {
+		"definition": "boss_life_steal+5%",
+		"x": -443.40500673763256,
+		"y": -128,
+		"root": false
+	},
+	"fj7blb1dhpznhbw6": {
+		"definition": "boss_life_steal+5%",
+		"x": -147.8016689125442,
+		"y": 128,
+		"root": false
+	},
+	"rgtxenkos2v08rg2": {
+		"definition": "current_hp_dmg+1%",
+		"x": -221.70250336881628,
+		"y": 128,
+		"root": false
+	},
+	"2tuxmh7hukkn1rlg": {
+		"definition": "boss_life_steal+5%",
+		"x": -295.6033378250884,
+		"y": 128,
+		"root": false
+	},
+	"j3smpp06yg2k0cl8": {
+		"definition": "current_hp_dmg+1%",
+		"x": -369.50417228136047,
+		"y": 128,
+		"root": false
+	},
+	"x8pffdiemravgj7w": {
+		"definition": "boss_life_steal+5%",
+		"x": -443.4050067376325,
+		"y": 128,
+		"root": false
+	},
+	"1r6zo01kxisb0fbe": {
+		"definition": "boss_crit_strikes+20%",
+		"x": 0,
+		"y": 256,
+		"root": false
+	},
+	"c3q8ce0rqq50xe8c": {
+		"definition": "boss_crit_strikes+20%",
+		"x": 73.9008344562721,
+		"y": 384,
+		"root": false
+	},
+	"snjrn3uxee7j74io": {
+		"definition": "boss_crit_strikes+20%",
+		"x": 295.6033378250884,
+		"y": 256,
+		"root": false
+	},
+	"t2i4enqfbbqlbsd7": {
+		"definition": "boss_crit_strikes+20%",
+		"x": 221.70250336881628,
+		"y": 128,
+		"root": false
+	},
+	"agrmu5nd6e3ia5k7": {
+		"definition": "boss_crit_dmg+40%",
+		"x": -36.95041722813605,
+		"y": 192,
+		"root": false
+	},
+	"n4kcntmwhftqq672": {
+		"definition": "boss_crit_dmg+40%",
+		"x": 36.95041722813605,
+		"y": 320,
+		"root": false
+	},
+	"dbwu89qzhxsj19w1": {
+		"definition": "boss_crit_dmg+40%",
+		"x": 110.85125168440811,
+		"y": 448,
+		"root": false
+	},
+	"dr3s9qun0mvcvbbt": {
+		"definition": "boss_crit_dmg+40%",
+		"x": 332.55375505322445,
+		"y": 320,
+		"root": false
+	},
+	"pxs3t3vp28m2ek5j": {
+		"definition": "boss_crit_dmg+40%",
+		"x": 258.6529205969523,
+		"y": 192,
+		"root": false
+	},
+	"aeqy97v7vk9czk8f": {
+		"definition": "boss_crit_dmg+40%",
+		"x": 184.75208614068023,
+		"y": 64,
+		"root": false
+	}
+}

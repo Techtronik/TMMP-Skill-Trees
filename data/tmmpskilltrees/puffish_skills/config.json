@@ -2,6 +2,11 @@
 	"version": 3,
 
 	"categories": [
-		"combat", "mining"
+		"combat",
+		"defence",
+		"boss",
+		"mining",
+		"woodcutting",
+		"digging"
 	]
 }

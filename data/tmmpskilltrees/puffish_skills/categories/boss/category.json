@@ -1,0 +1,10 @@
+{
+	"title": "boss",
+	"icon": {
+		"type": "item",
+		"data": {
+			"item": "dragon_head"
+		}
+	},
+	"background": "textures/gui/advancements/backgrounds/end.png"
+}

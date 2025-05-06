@@ -1,0 +1,13 @@
+{
+	"title": "Digging",
+	"icon": {
+		"type": "item",
+		"data": {
+			"item": "minecraft:diamond_shovel",
+			"nbt": {
+				"tag": {}
+			}
+		}
+	},
+	"background": "textures/gui/advancements/backgrounds/husbandry.png"
+}

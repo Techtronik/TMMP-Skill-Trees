@@ -1,0 +1,206 @@
+{
+	"2j7c7mtjqrjs5lg7": {
+		"definition": "chopping_reset",
+		"x": 0,
+		"y": 0,
+		"root": false
+	},
+	"kse970o1kan0svjm": {
+		"definition": "chopping_speed+5%",
+		"x": 0,
+		"y": -36.95041722813605,
+		"root": true
+	},
+	"1t6up98uyciy8uin": {
+		"definition": "chopping_speed+5%",
+		"x": 0,
+		"y": -73.9008344562721,
+		"root": false
+	},
+	"1j9j3chda5gnuwpf": {
+		"definition": "stamina+5%",
+		"x": 0,
+		"y": -110.85125168440814,
+		"root": false
+	},
+	"4bnvg4poxhlwghyw": {
+		"definition": "chopping_speed+5%",
+		"x": -32,
+		"y": -92.37604307034012,
+		"root": false
+	},
+	"wy1ywu8oibe51ygb": {
+		"definition": "chopping_speed+5%",
+		"x": -64,
+		"y": -73.9008344562721,
+		"root": false
+	},
+	"ct00yeje9fdgnkck": {
+		"definition": "fortune+0.5",
+		"x": -96,
+		"y": -55.42562584220407,
+		"root": false
+	},
+	"hijrpqo7pqd15qxd": {
+		"definition": "chopping_speed+5%",
+		"x": 32,
+		"y": -92.37604307034012,
+		"root": false
+	},
+	"wrkoqc472026pnlk": {
+		"definition": "chopping_speed+5%",
+		"x": 64,
+		"y": -73.9008344562721,
+		"root": false
+	},
+	"fib4votxflzu6ygo": {
+		"definition": "fortune+0.5",
+		"x": 96,
+		"y": -55.42562584220407,
+		"root": false
+	},
+	"nmjixg3icc8jci2a": {
+		"definition": "chopping_speed+5%",
+		"x": 0,
+		"y": -147.8016689125442,
+		"root": false
+	},
+	"mqjj9l2qweqlwl9v": {
+		"definition": "stamina+5%",
+		"x": 0,
+		"y": -184.75208614068023,
+		"root": false
+	},
+	"gwfb1iulk8bv9yff": {
+		"definition": "breaking_speed+10%",
+		"x": -32,
+		"y": -166.27687752661222,
+		"root": false
+	},
+	"gfix5vedw55n018g": {
+		"definition": "chopping_speed+5%",
+		"x": -64,
+		"y": -147.8016689125442,
+		"root": false
+	},
+	"7127v04lfdulqruz": {
+		"definition": "stamina+5%",
+		"x": -96,
+		"y": -129.32646029847615,
+		"root": false
+	},
+	"y3zwlq3o0k03bwtf": {
+		"definition": "breaking_speed+10%",
+		"x": 32,
+		"y": -166.27687752661222,
+		"root": false
+	},
+	"ror5r1nh1u9scvcf": {
+		"definition": "chopping_speed+5%",
+		"x": 64,
+		"y": -147.8016689125442,
+		"root": false
+	},
+	"ko6yi7i7offirwxz": {
+		"definition": "stamina+5%",
+		"x": 96,
+		"y": -129.32646029847615,
+		"root": false
+	},
+	"wnx0tl95n23uzgcg": {
+		"definition": "chopping_speed+5%",
+		"x": 0,
+		"y": -221.70250336881628,
+		"root": false
+	},
+	"967r38ezz9l046jg": {
+		"definition": "stamina+5%",
+		"x": 0,
+		"y": -258.6529205969523,
+		"root": false
+	},
+	"s25ais09vtg2dst4": {
+		"definition": "chopping_speed+5%",
+		"x": -32,
+		"y": -240.17771198288432,
+		"root": false
+	},
+	"7w109yhe5eswrhbp": {
+		"definition": "chopping_speed+5%",
+		"x": -64,
+		"y": -221.70250336881628,
+		"root": false
+	},
+	"28mrgmkof8gvl4gl": {
+		"definition": "chopping_speed+5%",
+		"x": 32,
+		"y": -240.17771198288426,
+		"root": false
+	},
+	"50c58ywa61m97e1p": {
+		"definition": "chopping_speed+5%",
+		"x": 64,
+		"y": -221.70250336881625,
+		"root": false
+	},
+	"l6mkkli9ymcn8ns9": {
+		"definition": "breaking_speed+10%",
+		"x": 0,
+		"y": -295.6033378250884,
+		"root": false
+	},
+	"owf8uhizhyfz7jcy": {
+		"definition": "stamina+5%",
+		"x": 0,
+		"y": -332.55375505322445,
+		"root": false
+	},
+	"c112kemdl8ragufl": {
+		"definition": "breaking_speed+10%",
+		"x": -32,
+		"y": -314.0785464391564,
+		"root": false
+	},
+	"ux13vc0c78m5eseb": {
+		"definition": "breaking_speed+10%",
+		"x": 32,
+		"y": -314.0785464391564,
+		"root": false
+	},
+	"4dbyreh0srs69fqy": {
+		"definition": "fortune+0.5",
+		"x": 96,
+		"y": -203.22729475474824,
+		"root": false
+	},
+	"mbi71dyq53wwlsy7": {
+		"definition": "fortune+0.5",
+		"x": -96,
+		"y": -203.22729475474824,
+		"root": false
+	},
+	"nyleher76pq10aag": {
+		"definition": "stamina+5%",
+		"x": 64,
+		"y": -295.6033378250884,
+		"root": false
+	},
+	"8vdndf1bgsbzz8bq": {
+		"definition": "stamina+5%",
+		"x": -64,
+		"y": -295.6033378250884,
+		"root": false
+	},
+	"zkhk5btvno98tnau": {
+		"definition": "fortune+0.5",
+		"x": 0,
+		"y": -369.50417228136047,
+		"root": false
+	},
+	"pafux9dmhnulgfnw": {
+		"definition": "fortune+0.5",
+		"x": 0,
+		"y": -406.4545895094965,
+		"root": false
+	}
+}

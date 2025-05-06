@@ -1,0 +1,49 @@
+{
+	"experience_per_level": {
+		"type": "expression",
+		"data": {
+			"expression": "min((level ^ 1.2) + 10, 200)"
+		}
+	},
+	"sources": [
+		{
+			"type": "puffish_skills:mine_block",
+			"data": {
+				"variables": {
+					"silk_touch": {
+						"operations": [
+							{
+								"type": "get_tool_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"nbt": "{Enchantments:[{id:\"minecraft:silk_touch\"}]}"
+								}
+							}
+						]
+					},
+					"shovel": {
+						"operations": [
+							{
+								"type": "get_mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "#minecraft:mineable/shovel"
+								}
+							}
+						]
+					}
+				},
+				"experience": [
+					{
+						"condition": "!silk_touch & shovel",
+						"expression": "1"
+					}
+				]
+			}
+		}
+	]
+}

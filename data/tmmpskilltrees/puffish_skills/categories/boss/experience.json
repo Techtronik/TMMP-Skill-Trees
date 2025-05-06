@@ -1,0 +1,99 @@
+{
+	"experience_per_level": {
+		"type": "expression",
+		"data": {
+			"expression": "level * 500"
+		}
+	},
+	"sources": [
+		{
+			"type": "puffish_skills:kill_entity",
+			"data": {
+				"variables": {
+					"is_boss": {
+						"operations": [
+							{
+								"type": "get_killed_living_entity"
+							},
+							{
+								"type": "get_type"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"entity_type": "#neoforge:bosses"
+								}
+							}
+						]
+					},
+					"is_wither_boss": {
+						"operations": [
+							{
+								"type": "get_killed_living_entity"
+							},
+							{
+								"type": "get_type"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"entity_type": "minecraft:wither"
+								}
+							}
+						]
+					},
+					"is_warden_boss": {
+						"operations": [
+							{
+								"type": "get_killed_living_entity"
+							},
+							{
+								"type": "get_type"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"entity_type": "minecraft:warden"
+								}
+							}
+						]
+					},
+					"is_dragon_boss": {
+						"operations": [
+							{
+								"type": "get_killed_living_entity"
+							},
+							{
+								"type": "get_type"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"entity_type": "minecraft:ender_dragon"
+								}
+							}
+						]
+					}
+				},
+				"experience": [
+					{
+						"condition": "is_boss",
+						"expression": "100"
+					},
+					{
+						"condition": "is_wither_boss",
+						"expression": "100"
+					},
+					{
+						"condition": "is_warden_boss",
+						"expression": "400"
+					},
+					{
+						"condition": "is_dragon_boss",
+						"expression": "9000"
+					}
+				]
+			}
+		}
+	]
+}
