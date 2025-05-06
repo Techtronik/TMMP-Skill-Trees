@@ -186,31 +186,31 @@
 		"root": false
 	},
 	"gc5w5hdjj9fnao83": {
-		"definition": "health+2",
+		"definition": "boss_health+20%",
 		"x": 36.95041722813605,
 		"y": -64,
 		"root": true
 	},
 	"l7ppnixv0fyj5o7o": {
-		"definition": "health+2",
+		"definition": "boss_health+20%",
 		"x": 73.9008344562721,
 		"y": -128,
 		"root": false
 	},
 	"u2bd8xkdwa03301y": {
-		"definition": "health+2",
+		"definition": "boss_health+20%",
 		"x": 110.85125168440814,
 		"y": -192,
 		"root": false
 	},
 	"01z14l9eziocf2tp": {
-		"definition": "health+2",
+		"definition": "boss_health+20%",
 		"x": 147.8016689125442,
 		"y": -256,
 		"root": false
 	},
 	"blpr2mwh771g7vav": {
-		"definition": "health+2",
+		"definition": "boss_health+20%",
 		"x": 184.75208614068023,
 		"y": -320,
 		"root": false
@@ -312,25 +312,25 @@
 		"root": false
 	},
 	"zc2483mwwzbt0f0a": {
-		"definition": "healing+5%",
+		"definition": "boss_health+20%",
 		"x": 0,
 		"y": -256,
 		"root": false
 	},
 	"9vjzi732cx76j3ik": {
-		"definition": "healing+5%",
+		"definition": "boss_health+20%",
 		"x": 73.9008344562721,
 		"y": -384,
 		"root": false
 	},
 	"lxqoxtib9853znie": {
-		"definition": "healing+5%",
+		"definition": "boss_health+20%",
 		"x": 295.6033378250884,
 		"y": -256,
 		"root": false
 	},
 	"0hqchw26eh89h7vr": {
-		"definition": "healing+5%",
+		"definition": "boss_health+20%",
 		"x": 221.70250336881628,
 		"y": -128,
 		"root": false
@@ -342,7 +342,7 @@
 		"root": false
 	},
 	"4gyhrgvbajrxok3p": {
-		"definition": "current_hp_dmg+1%",
+		"definition": "boss_melee_dmg+20%",
 		"x": -221.70250336881628,
 		"y": -128,
 		"root": false
@@ -354,7 +354,7 @@
 		"root": false
 	},
 	"fuzmkex1z8i77cxp": {
-		"definition": "current_hp_dmg+1%",
+		"definition": "boss_melee_dmg+20%",
 		"x": -369.50417228136047,
 		"y": -128,
 		"root": false
@@ -372,7 +372,7 @@
 		"root": false
 	},
 	"rgtxenkos2v08rg2": {
-		"definition": "current_hp_dmg+1%",
+		"definition": "boss_melee_dmg+20%",
 		"x": -221.70250336881628,
 		"y": 128,
 		"root": false
@@ -384,7 +384,7 @@
 		"root": false
 	},
 	"j3smpp06yg2k0cl8": {
-		"definition": "current_hp_dmg+1%",
+		"definition": "boss_melee_dmg+20%",
 		"x": -369.50417228136047,
 		"y": 128,
 		"root": false
@@ -396,25 +396,25 @@
 		"root": false
 	},
 	"1r6zo01kxisb0fbe": {
-		"definition": "boss_crit_strikes+20%",
+		"definition": "boss_ranged_dmg+20%",
 		"x": 0,
 		"y": 256,
 		"root": false
 	},
 	"c3q8ce0rqq50xe8c": {
-		"definition": "boss_crit_strikes+20%",
+		"definition": "boss_ranged_dmg+20%",
 		"x": 73.9008344562721,
 		"y": 384,
 		"root": false
 	},
 	"snjrn3uxee7j74io": {
-		"definition": "boss_crit_strikes+20%",
+		"definition": "boss_ranged_dmg+20%",
 		"x": 295.6033378250884,
 		"y": 256,
 		"root": false
 	},
 	"t2i4enqfbbqlbsd7": {
-		"definition": "boss_crit_strikes+20%",
+		"definition": "boss_ranged_dmg+20%",
 		"x": 221.70250336881628,
 		"y": 128,
 		"root": false
@@ -453,6 +453,24 @@
 		"definition": "boss_crit_dmg+40%",
 		"x": 184.75208614068023,
 		"y": 64,
+		"root": false
+	},
+	"1d57ona4go01bnfi": {
+		"definition": "boss_health+20%",
+		"x": 221.70250336881628,
+		"y": -384,
+		"root": false
+	},
+	"nqsqhfz1h66ux951": {
+		"definition": "boss_melee_dmg+20%",
+		"x": -443.40500673763256,
+		"y": 0,
+		"root": false
+	},
+	"c248igc6vjhz6990": {
+		"definition": "boss_ranged_dmg+20%",
+		"x": 221.70250336881628,
+		"y": 384,
 		"root": false
 	}
 }
