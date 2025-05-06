@@ -9,7 +9,7 @@
 		"definition": "boss_melee_dmg+20%",
 		"x": -73.9008344562721,
 		"y": 0,
-		"root": false
+		"root": true
 	},
 	"qogk08th0prwt45k": {
 		"definition": "boss_melee_dmg+20%",
@@ -27,7 +27,7 @@
 		"definition": "boss_ranged_dmg+20%",
 		"x": 36.95041722813605,
 		"y": 64,
-		"root": false
+		"root": true
 	},
 	"3bc7vltz1si8emhf": {
 		"definition": "boss_ranged_dmg+20%",
@@ -189,7 +189,7 @@
 		"definition": "health+2",
 		"x": 36.95041722813605,
 		"y": -64,
-		"root": false
+		"root": true
 	},
 	"l7ppnixv0fyj5o7o": {
 		"definition": "health+2",
